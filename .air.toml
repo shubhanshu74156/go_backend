@@ -1,0 +1,7 @@
+# .air.toml
+[build]
+  cmd = "go run main.go"
+  bin = "tmp/main"
+  include = ["."]
+  exclude = ["tmp", "vendor"]
+  wait = 1000 # time in milliseconds to wait before restarting
